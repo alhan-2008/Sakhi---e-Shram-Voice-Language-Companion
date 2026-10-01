@@ -1,0 +1,6 @@
+{
+  "name": "Sakhi - e-Shram Voice & Language Companion",
+  "description": "Empowering first-time women internet users to easily understand and safely navigate the official e-Shram government portal in their native Indian language.",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

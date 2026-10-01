@@ -1,0 +1,34 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    font-family: 'Noto Sans', 'Noto Sans Tamil', 'Noto Sans Devanagari', 'Noto Sans Telugu', 'Noto Sans Kannada', 'Noto Sans Malayalam', 'Noto Sans Bengali', 'Poppins', system-ui, -apple-system, sans-serif;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  body {
+    min-height: 100vh;
+    font-family: 'Noto Sans', 'Noto Sans Tamil', 'Noto Sans Devanagari', 'Noto Sans Telugu', 'Noto Sans Kannada', 'Noto Sans Malayalam', 'Noto Sans Bengali', 'Poppins', system-ui, -apple-system, sans-serif;
+    color: #1E1B4B;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Poppins', 'Noto Sans', 'Noto Sans Tamil', 'Noto Sans Devanagari', 'Noto Sans Telugu', 'Noto Sans Kannada', 'Noto Sans Malayalam', 'Noto Sans Bengali', sans-serif;
+  }
+}
+
+/* Custom sound wave animation for speech button */
+@keyframes wave-pulse {
+  0%, 100% { height: 6px; }
+  50% { height: 16px; }
+}
+
+.animate-wave-1 {
+  animation: wave-pulse 0.8s ease-in-out infinite;
+}
+.animate-wave-2 {
+  animation: wave-pulse 0.8s ease-in-out 0.2s infinite;
+}
+.animate-wave-3 {
+  animation: wave-pulse 0.8s ease-in-out 0.4s infinite;
+}
